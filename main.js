@@ -3,6 +3,7 @@
 const question = document.querySelectorAll(".question");
 const answer = document.querySelectorAll(".answer");
 const arrow = document.querySelectorAll(".arrow");
+const box_image = document.querySelector(".box_image");
 
 for (let i = 0; i < question.length; i++) {
   function events() {
@@ -10,6 +11,10 @@ for (let i = 0; i < question.length; i++) {
     arrow[i].classList.toggle("rotate");
     answer[i].classList.toggle("visible");
   }
+  question[i].addEventListener("onmouseover", function () {
+    box_image.classList.add("slide");
+  });
+
   arrow[i].addEventListener("click", function () {
     events();
   });
