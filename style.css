@@ -100,6 +100,11 @@ body {
   isolation: isolate;
   color: var(--Very_dark_grayish_blue);
   cursor: pointer;
+  transition: color 250ms linear;
+}
+
+.question:hover {
+  color: var(--Soft_red);
 }
 
 .answer,
