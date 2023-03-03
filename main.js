@@ -11,9 +11,6 @@ for (let i = 0; i < question.length; i++) {
     arrow[i].classList.toggle("rotate");
     answer[i].classList.toggle("visible");
   }
-  question[i].addEventListener("onmouseover", function () {
-    box_image.classList.add("slide");
-  });
 
   arrow[i].addEventListener("click", function () {
     events();
