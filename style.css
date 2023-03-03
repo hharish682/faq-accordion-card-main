@@ -163,6 +163,9 @@ span {
     transition: transform 250ms linear;
   }
 
+  .bg_image_container {
+  }
+
   .bg_image {
     position: absolute;
     width: 650px;
