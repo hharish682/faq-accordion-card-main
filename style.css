@@ -151,7 +151,7 @@ span {
   .hero_image {
     position: relative;
     width: 400px;
-    transform: translate(-18%, 0%);
+    transform: translate(-16%, 0%);
     overflow: hidden;
   }
 
@@ -161,9 +161,6 @@ span {
     top: 100px;
     left: -92px;
     transition: transform 250ms linear;
-  }
-
-  .bg_image_container {
   }
 
   .bg_image {
